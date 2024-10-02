@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week4</title>
+    <style>
+        table,td,th {border: 1px solid black}
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Week 4 Learning</h1>
+    </header>
+    <main>
+        <!-- comment tool is command + forward slash -->
+    <!-- working on img tags-->
+    <!-- Files stored locally on your computer are the relative path, html links are the absolute path-->
+     <!--if the image is decorative keep the alt taxt empty with 2 quotations, there must always be an "alt text" or "title" tag.-->
+     
+     
+    <h2>Image tag example</h2>
+    <img src="./images/coffee-shop.jpg" alt="image of a coffee cup with coffee beans" width="500" >
+    <img src="./images/coffee-shop.jpg" title="Coffee cup shop" width="500">
+
+    <!-- Moving into Anchor tags -->
+     <!-- to have the link, move you to a new destination in another tab use the target=_blank tag -->
+      
+    <h2>Link tag example</h2>
+        <p>here is a link to visit <a href= "https://Google.com" target="_blank"> Google Homepage</a>.</p>
+
+        <a href="./thanks.html">Thank you!</a>
+
+<!-- From here is a copy paste of code -->
+<a href="#cakes">Jump to cakes menu</a>
+<p>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at,
+  dignissimos ratione doloremque rerum non rem cum laudantium quia consectetur,
+  saepe perferendis aperiam iste reprehenderit fugit ipsa, excepturi impedit.
+  Saepe.
+</p>
+<p>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at,
+  dignissimos ratione doloremque rerum non rem cum laudantium quia consectetur,
+  saepe perferendis aperiam iste reprehenderit fugit ipsa, excepturi impedit.
+  Saepe.
+</p>
+<ul id="cakes">
+  <li>Red Velvet</li>
+  <li>Tiramisu</li>
+  <li>Black Forest</li>
+</ul>
+<!-- Tables in HTML -->
+        
+<h2>Simple HTML Table</h2>
+<table>
+    <caption>Student Grade Information</caption>
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Course Name</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td>John Smith</td>
+                <td>Web Dev 1</td>
+                <td>A</td>
+            </tr>
+        <tr>
+            <td>bob g</td>
+                <td>Web Dev 2</td>
+                <td>A+</td>
+        </tr>
+   </tbody>
+
+</table>
+<hr>
+<!-- Merging cell copy table -->
+<h2>Merging Cells</h2>
+<table>
+    <thead>
+      <tr>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Scores</th>
+      </tr>
+      <tr>
+        <th>Maths</th>
+        <th>English</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bob</td>
+        <td>10/10</td>
+        <td>9/10</td>
+      </tr>
+      <tr>
+        <td>Fran</td>
+        <td>8/10</td>
+        <td>10/10</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <!-- my example -->
+  <table>
+    <caption>Fake Data</caption>
+    <thead>
+        <tr>
+            <th colspan="2">Days</th>
+            <th colspan="2">Month</th>
+        </tr>
+        <tr>
+            <th>Mon</th>
+            <th>wed</th>
+            <th>Jan</th>
+            <th>Sep</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>9</td>
+            <td>8</td>
+            <td>7</td>
+        </tr>
+    </tbody>
+
+</table>
+
+<hr>
+<!-- Form elements -->
+
+ <h2>HTML Form Elements</h2>
+<form action="./thanks.html" method="get">
+
+        <label for="fullname">Name:</label>
+        <input id="fullname" type="text" placeholder="john smith"  
+        
+        name="fullname"> 
+
+        <!-- line above does not work when changed to number ans.browser issue-->
+         <label for="age">Age:</label>
+        <input id="age" type="number" min="0" max="50" step="2" name="age">
+        <button type="Submit">Send</button>
+         </form>
+<hr>
+         <!-- test -->
+          <h1>test page</h1>
+<form action="./thanks.html" method="get">
+    <label for="fullname1">Name1:</label>
+    <input id="fullname1" type="text" placeholder="george" name="peoples names">
+
+    <label for="ages1">Ages1</label>
+    <input id="ages1" type="text" name="peoples ages" pattern="{0-9}">
+    <button type="submit">Send</button>
+
+</form>
+    </main>
+    
+</body>
+</html>
