@@ -1,0 +1,10 @@
+body{font-size: 18px; font-family: sans-serif;}
+h1,h2,footer{background-color:indigo;}
+.site-title{color:rgb(218, 252, 252);}
+#my-image {box-shadow: 0px 0px 2px 1px black;} 
+#list_of_hobbies {list-style-type: square;}
+#list_of_hobbies li:nth-child(2n+1) {background-color:gold;}
+/* #note_page {text-decoration: none;} */
+a {text-decoration: none;}
+a { background-color: brown; border: 15px inset orange;}
+a:hover {background-color: aqua; border: 30px double green;}

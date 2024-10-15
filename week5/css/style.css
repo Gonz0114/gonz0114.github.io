@@ -1,0 +1,44 @@
+body{background-color: rgba(8, 185, 185, 0.323);
+
+}
+header{
+    background-color: rgb(4, 254, 171);
+    color: rgb(237, 110, 56);
+    padding: 0.2rem 4rem;
+    margin: 1rem;}
+
+    /* 1 rem = 68px */
+    /* if 1 rem, represents Y axis, the 2nd set of rem is X axis, if 4 rem the order goes up right down left.  */
+
+
+h1,h2,h3 {
+    text-decoration: underline;}
+
+p{
+    font-size: 1.2rem;
+    color: red;
+    margin: 1rem }
+
+    div p{font-size:  0.7rem;}
+
+    /* to target a class we use period (.) */
+    .notes {border: 2px solid black;}
+
+    .highlight{
+        background-color: beige;
+        border:  2px solid red;}
+        
+    /* when targeting a id its hash (#) */
+
+    #goals{font-weight: 700;
+    border: 3px solid green;}
+
+    li:nth-child(n+1){
+        background-color: brown;
+    }
+    a{
+        display: block;
+    color: black;}
+    
+        a[ href="https://www.alognquincollege.com"]{
+            color: green;}
