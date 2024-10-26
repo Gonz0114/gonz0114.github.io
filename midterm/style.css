@@ -1,0 +1,105 @@
+
+body{background-color: #aad4cf;
+font-family: Helvetica, Arial, sans-serif;}
+
+ #title {position: absolute;
+top: 20%;left:42%;
+font-size: 55px;
+color: rgb(237, 227, 227);}
+
+
+header { padding:10rem 0;
+background-image: url("./images/lone-starfish-wide.jpg");
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+max-width: 75%;
+margin: 0 auto;}
+
+#main {background-color: #d4e9e7;
+max-width: 75%;
+ margin-left: 12.5%;}
+ 
+#menu {list-style-type: none;
+display: flex;
+padding: 0;
+margin: 0;
+justify-content: center;
+text-decoration: none;}
+
+#menu li{margin: 1% 7%;}
+
+#navstory {padding:10rem; border-left: 5px solid;
+ border-right: 5px blue solid;}
+
+#menu a{text-decoration: none;
+color: black;
+font-size: 40px;
+padding: 0.1rem 0.2rem;}
+
+#menu a:hover {background-color: limegreen;}
+
+#los {text-align: left;
+margin-bottom: 5px;
+font-size: 40px;
+padding: 0;}
+
+p {font-size: 1.1rem;
+    word-spacing: 0.3rem;
+margin-top: 1px;}
+
+#smallfish {width: 240px;
+    float: left;
+    margin-right: 15px; 
+    margin-bottom: 1rem;
+    height: auto;}
+
+.fyi {font-size: 30px;
+margin-top: 1.5rem;
+margin-bottom: 0rem;}
+
+#facts {font-size: 1rem;
+margin-top: 1rem;
+margin-bottom: 0rem;}
+
+.contact {font-size: 30px;}
+
+form {outline: solid;
+margin: 0.75rem;
+padding-bottom: 0.25rem;}
+
+.cform {margin-left: 1rem;
+display: block; padding-top: 1rem;}
+
+#your_message { height: 5rem;}
+
+
+#fullname, #email, #your_message, label {margin-left:1rem; width:96%;}
+
+h4 {margin: 1rem;}
+
+#wouldyoulike_Y, #wouldyoulike_N, #wouldyoulike_M {display: inline-block;}
+
+button {display: block;
+margin: 1rem;
+margin-bottom: 1rem;
+padding: 0.5rem;
+background-color: transparent;
+outline: none;
+box-shadow: none;
+text-shadow: none;
+transform: none;
+border: 1.5px solid black;}
+
+button:active { background-color: transparent;
+border: 1.5px solid;
+transform: none;}
+
+button:focus {outline: none;
+border: 1.5px solid;}
+
+footer {text-align: right;}
+
+
+

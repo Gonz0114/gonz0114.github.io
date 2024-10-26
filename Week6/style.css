@@ -1,0 +1,74 @@
+/* google font import option */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+html {font-size: 20px;}
+/* rem is based on the root level, by default this is 16px, em is based on the parent */
+
+/* width as a percentage applies to parent only, vw and vh as view width and height, apply to children */
+body { background-color: rgb(213, 213, 213); color: rgb(53, 53, 53);
+line-height: 1.5;
+font-family: 'Montserrat', sans-serif, monospace;}
+
+.container { max-width: 90%;
+max-width: 90vw; 
+margin: 0 auto;}
+
+header { background-color: rgb(33, 32, 32);
+color: white;
+padding: 10rem 0;
+text-align: center;
+background-image: url("./images/bread.jpg");
+background-color: black;
+background-repeat: no-repeat;
+/* background-position: 20px 40px; */
+background-size: cover;
+background-position: center;
+font-size: 10px;}
+
+
+h1{ font-size: 2rem;
+/* 1rem = 16px */
+}
+
+nav ul li a {color: white;}
+
+nav ul lu a{color: white;
+padding: 2 ;}
+
+
+nav ul {list-style: none;
+    padding: 0.7rem 0;
+}
+
+nav ul li {display: inline;
+margin: 0 0.5rem;
+font-size: 0.7rem;}
+
+nav li a:hover {background-color: white;
+color: black;}
+
+/* #breakfast { max-width: 90vw;} */
+
+section {background-color: rgb(165, 135, 135);
+padding: 1rem;
+border: 5px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+margin-bottom: 0.5rem;}
+
+h2{font-size: 1.8rem;
+margin-bottom: 10px;}
+
+h3{font-size: 1.5rem;
+margin-bottom: 5px;}
+
+aside{background-color: aquamarine;
+padding: 0.8rem;
+border-radius: 5px;
+margin-top: 1rem;}
+
+footer { text-align: center;
+background-color: coral ;
+color: rgb(227, 224, 224);
+padding: 0.8rem 0;
+margin-top: 1rem;
+border-radius: 5px;}
