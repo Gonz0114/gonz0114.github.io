@@ -2,9 +2,9 @@
 body{background-color: #aad4cf;
 font-family: Helvetica, Arial, sans-serif;}
 
- #title {position: absolute;
-top: 20%;left:42%;
-font-size: 55px;
+#title {position: absolute;
+top: 24%;left:37%;
+font-size: 400%;
 color: rgb(237, 227, 227);}
 
 
@@ -51,6 +51,7 @@ margin-top: 1px;}
 
 #smallfish {width: 240px;
     float: left;
+    margin-left: 0.5rem;
     margin-right: 15px; 
     margin-bottom: 1rem;
     height: auto;}
