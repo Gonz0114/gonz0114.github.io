@@ -3,7 +3,7 @@ body{background-color: #aad4cf;
 font-family: Helvetica, Arial, sans-serif;}
 
 #title {position: absolute;
-top: 24%;left:37%;
+top: 24%;left:36%;
 font-size: 400%;
 color: rgb(237, 227, 227);}
 
@@ -17,7 +17,7 @@ background-position: center;
 max-width: 75%;
 margin: 0 auto;}
 
-#main {background-color: #d4e9e7;
+#block {background-color: #d4e9e7;
 max-width: 75%;
  margin-left: 12.5%;}
  
@@ -25,13 +25,11 @@ max-width: 75%;
 display: flex;
 padding: 0;
 margin: 0;
-justify-content: center;
+justify-content: space-between;
+text-align: center;
 text-decoration: none;}
 
 #menu li{margin: 1% 7%;}
-
-#navstory {padding:10rem; border-left: 5px solid;
- border-right: 5px blue solid;}
 
 #menu a{text-decoration: none;
 color: black;
@@ -78,7 +76,8 @@ display: block; padding-top: 1rem;}
 
 #fullname, #email, #your_message, label {margin-left:1rem; width:96%;}
 
-h4 {margin: 1rem;}
+h3 {margin: 1rem;
+font-size: 1rem;}
 
 #wouldyoulike_Y, #wouldyoulike_N, #wouldyoulike_M {display: inline-block;}
 
