@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+header, footer{min-height: 100px;
+background-color: palegoldenrod;}
+
+main{ min-height: 450px;
+background-color: palegreen;}
+
+/* for 650px and over devices */
+
+@media screen and (min-width: 650px)
+{main{background-color: palegoldenrod;}
+footer,header{ background-color: palevioletred;}}
+
+@media screen and (min-width: 900px)
+{main{background-color: aqua;}}
