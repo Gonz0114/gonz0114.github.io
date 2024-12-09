@@ -1,0 +1,133 @@
+/* #container {width: 70%; margin: 0 auto;}
+
+.hero {background-image: url( ../images/main-banner.jpg);
+    width: 100%;
+background-size:contain;
+background-repeat: no-repeat;}
+
+h1{font-size: 5rem;}
+#button1{padding: 2rem}
+ */
+
+ #container {width: 65%;
+margin: 0 auto;}
+
+ .about{background-color: rgb(225, 179, 51);
+padding-top: 10px;
+padding-bottom: 10px;}
+
+ .about p, h2 {margin-left: 2rem;}
+ .about img{margin-bottom: 1rem;}
+ .about h2{ margin-top: 1rem; margin-bottom: 1rem;}
+
+ h2{ font-size: 3rem; font-weight: bold;}
+
+ #serv{margin-top: 3rem;}
+
+
+
+
+
+ #serv1 {background-color: rgb(225, 179, 51);
+    padding-top: 10px;
+    padding-bottom: 10px;
+margin-bottom: 1rem;}
+
+#serv1 img{ width: 100%; height:auto; display: block;}
+
+h3{ font-size: 2rem; font-weight: bold;}
+#serv1 h3 {margin-top: 2rem;}
+#serv1 p{ margin-top: 1rem; margin-bottom: 1rem;}
+#serv1 p, h3 {margin-left: 2rem;}
+
+button{ margin-left: 10px;
+    padding: 1rem;
+background-color: black;
+color: white;}
+
+
+
+
+
+#serv2 {background-color: rgb(225, 179, 51);
+    padding-top: 10px;
+    padding-bottom: 10px;
+margin-bottom: 1rem;}
+
+#serv2 img{ width: 100%; height:auto; display: block;}
+
+h3{ font-size: 2rem; font-weight: bold;}
+#serv2 h3 {margin-top: 2rem;}
+#serv2 p{ margin-top: 1rem; margin-bottom: 1rem;}
+#serv2 p, h3 {margin-left: 2rem;}
+
+button{ margin-left: 10px;
+    padding: 1rem;
+background-color: black;
+color: white;}
+
+
+
+
+
+
+#serv3 {background-color: rgb(225, 179, 51);
+    padding-top: 10px;
+    padding-bottom: 10px;
+margin-bottom: 1rem;}
+
+#serv3 img{ width: 100%; height:auto; display: block;}
+
+h3{ font-size: 2rem; font-weight: bold;}
+#serv3 h3 {margin-top: 2rem;}
+#serv3 p{ margin-top: 1rem; margin-bottom: 1rem;}
+#serv3 p, h3 {margin-left: 2rem;}
+
+button{ margin-left: 10px;
+    padding: 1rem;
+background-color: black;
+color: white;}
+
+
+
+
+
+
+#serv4 {background-color: rgb(225, 179, 51);
+    padding-top: 10px;
+    padding-bottom: 10px;
+margin-bottom: 1rem;}
+
+#serv4 img{ width: 100%; height:auto; display: block;}
+
+h3{ font-size: 2rem; font-weight: bold;}
+#serv4 h3 {margin-top: 2rem;}
+#serv4 p{ margin-top: 1rem; margin-bottom: 1rem;}
+#serv4 p, h3 {margin-left: 2rem;}
+
+button{ margin-left: 10px;
+    padding: 1rem;
+background-color: black;
+color: white;}
+
+
+
+
+
+
+#serv5 {background-color: rgb(225, 179, 51);
+    padding-top: 10px;
+    padding-bottom: 10px;
+margin-bottom: 1rem;}
+
+#serv5 img{ width: 100%; height:auto; display: block;}
+
+h3{ font-size: 2rem; font-weight: bold;}
+#serv5 h3 {margin-top: 2rem;}
+#serv5 p{ margin-top: 1rem; margin-bottom: 1rem;}
+#serv5 p, h3 {margin-left: 2rem;}
+
+button{ margin-left: 10px;
+    padding: 1rem;
+background-color: black;
+color: white;}
