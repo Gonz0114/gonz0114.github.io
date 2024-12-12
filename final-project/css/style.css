@@ -414,7 +414,7 @@ footer a {
 
 /* Desktop version */
 
-@media screen and (min-width: 700px) and (max-width: 1500px)
+@media screen and (min-width: 760px) and (max-width: 1200px )
  {
 
     nav li {
