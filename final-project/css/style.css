@@ -10,6 +10,13 @@ h1{font-size: 5rem;}
  */
 
 /* body {background-color: #222;} */
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
 #container {
    max-width: 65%;
     margin: 0 auto;
@@ -406,8 +413,9 @@ footer a {
 
 
 /* Desktop version */
-/* 
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+
+@media screen and (min-width: 700px) and (max-width: 1500px)
+ {
 
     nav li {
         list-style: none;
@@ -417,7 +425,7 @@ footer a {
     }
 
     #container {
-        width: auto;
+        max-width: 100%;
         height: auto;
         box-sizing: border-box;
     }
@@ -472,4 +480,4 @@ footer a {
     }
     footer{background-color:#222;}
     footer p {margin-left: 5rem;}
-} */
+} 
