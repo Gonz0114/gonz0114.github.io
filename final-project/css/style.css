@@ -9,12 +9,48 @@ h1{font-size: 5rem;}
 #button1{padding: 2rem}
  */
 
+ /* body {background-color: #222;} */
  #container {width: 65%;
 margin: 0 auto;}
 
- .about{background-color: rgb(225, 179, 51);
+nav{ background-color: #222;
+text-align: center;
+text-decoration: none;
+color: #c78c06;}
+
+nav li { margin-top: 2rem;}
+
+#lix {display: block;
+    background-color: #c78c06;
+color: #222;
+padding-top: 8rem;
+padding-bottom: 1rem;}
+
+
+.hero {background-image: url(../images/main-banner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+height: 50rem;}
+
+#overlay{ position: absolute;
+top: 20%;
+text-align: left;
+margin: 65px 0px;
+background-color:rgba(0, 0, 0, 0.5);
+padding: 8rem 2rem;}
+
+#overlay p, h1 {color: white;
+opacity: 100%;}
+
+#overlay h1{font-size: 5rem;
+margin-bottom: 2rem;}
+
+ .about{background-color:#ffe6ac;
 padding-top: 10px;
-padding-bottom: 10px;}
+padding-bottom: 10px;
+}
 
  .about p, h2 {margin-left: 2rem;}
  .about img{margin-bottom: 1rem;}
@@ -24,11 +60,7 @@ padding-bottom: 10px;}
 
  #serv{margin-top: 3rem;}
 
-
-
-
-
- #serv1 {background-color: rgb(225, 179, 51);
+ #serv1 {background-color: #ffe6ac;
     padding-top: 10px;
     padding-bottom: 10px;
 margin-bottom: 1rem;}
@@ -49,7 +81,7 @@ color: white;}
 
 
 
-#serv2 {background-color: rgb(225, 179, 51);
+#serv2 {background-color: #ffe6ac;
     padding-top: 10px;
     padding-bottom: 10px;
 margin-bottom: 1rem;}
@@ -71,7 +103,7 @@ color: white;}
 
 
 
-#serv3 {background-color: rgb(225, 179, 51);
+#serv3 {background-color: #ffe6ac;
     padding-top: 10px;
     padding-bottom: 10px;
 margin-bottom: 1rem;}
@@ -93,7 +125,7 @@ color: white;}
 
 
 
-#serv4 {background-color: rgb(225, 179, 51);
+#serv4 {background-color: #ffe6ac;
     padding-top: 10px;
     padding-bottom: 10px;
 margin-bottom: 1rem;}
@@ -115,7 +147,7 @@ color: white;}
 
 
 
-#serv5 {background-color: rgb(225, 179, 51);
+#serv5 {background-color: #ffe6ac;
     padding-top: 10px;
     padding-bottom: 10px;
 margin-bottom: 1rem;}
@@ -131,3 +163,64 @@ button{ margin-left: 10px;
     padding: 1rem;
 background-color: black;
 color: white;}
+
+.vision {background-image: url("../images/vision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 315px;}
+
+.vision p, .vision h2 {color: white;}
+        
+ #vision h1{font-size: 5rem;
+margin-bottom: 2rem;}
+
+#overlay2 { position: absolute;
+
+    text-align: left;
+    margin: 3rem 0px;
+    padding: 0rem 0rem;
+max-width: 950px;}
+
+    #overlay2 p, button {
+        margin-left: 2rem;
+        margin-top: 2rem;}
+
+.john img, .bob img{width: 100%;
+    display: block;}
+
+.john, .bob{  background: #ffe6ac;
+    padding: 1rem;
+    padding-top: 0; 
+    margin-bottom: 1rem;}
+
+.contact{  padding: 1rem;
+    padding-top: 2rem;}
+
+    .contact h3{ margin: 2rem}
+    #fullname, #email, #your_message {display: block;
+    width: 100%}
+
+    #your_message {padding-bottom: 4rem;}
+
+    table { width: 100%;}
+    
+th {background-color: #ffe6ac; 
+    height: 15px;
+    padding:1rem;
+    width: 100%;}
+
+table, th, td {
+    border: 1px solid black;
+    width: 50%;
+    padding: 1rem;}
+    
+
+ footer {
+        color: #c78c06;
+        padding: 2rem 1rem;
+        line-height: 3rem;
+    }
+    
+    footer a {
+        color: #c78c06;}
