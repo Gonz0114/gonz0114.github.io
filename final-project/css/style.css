@@ -406,8 +406,8 @@ footer a {
 
 
 /* Desktop version */
-
-@media screen and (min-width: 700px) and (max-width: 2000px) {
+/* 
+@media screen and (min-width: 700px) and (max-width: 1200px) {
 
     nav li {
         list-style: none;
@@ -472,4 +472,4 @@ footer a {
     }
     footer{background-color:#222;}
     footer p {margin-left: 5rem;}
-}
+} */
